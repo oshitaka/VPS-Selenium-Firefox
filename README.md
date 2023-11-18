@@ -2,6 +2,10 @@
 Troubleshooting of non working Firefox with Selenium on VPS
 
 If default tweaks doesn't work on Ubuntu 22.0.3 with Firefox 119.0.1 this might help you to manage
+> ### Source
+> Port problems: https://serverfault.com/questions/1142186/could-not-start-a-new-session-response-code-500-message-failed-to-read-marion
+> 
+> Dependencies needed: https://stackoverflow.com/questions/67090130/webdriverexception-process-unexpectedly-closed-with-status-255-selenium-ge
 
 ## Fist step
 1. Create a project directory and enter it
@@ -9,10 +13,7 @@ If default tweaks doesn't work on Ubuntu 22.0.3 with Firefox 119.0.1 this might 
 3. Update `pip install -U pip` and `pip install -U setuptools`
 4. Install Selenium: `pip install selenium`
 
-> ### Source
-> Port problems: https://serverfault.com/questions/1142186/could-not-start-a-new-session-response-code-500-message-failed-to-read-marion
-> 
-> Dependencies needed: https://stackoverflow.com/questions/67090130/webdriverexception-process-unexpectedly-closed-with-status-255-selenium-ge
+
 
 ## Manual installation of Firefox
 1. Delete firefox if installed: `apt purge firefox`
