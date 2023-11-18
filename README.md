@@ -1,19 +1,20 @@
 # VPS-Selenium-Firefox
 Troubleshooting of non working Firefox with Selenium on VPS
 
-If default tweaks doesn't on Ubuntu work with Firefox 119.0.1 this might help you to manage
+If default tweaks doesn't work on Ubuntu 22.0.3 with Firefox 119.0.1 this might help you to manage
 
+## Fist step
 1. Create a project directory and enter it
 2. Create [[env for Python|virtual enviroment]] and activate it
 3. Update `pip install -U pip` and `pip install -U setuptools`
 4. Install Selenium: `pip install selenium`
 
-> ## Source
+> ### Source
 > Port problems: https://serverfault.com/questions/1142186/could-not-start-a-new-session-response-code-500-message-failed-to-read-marion
 > 
 > Dependencies needed: https://stackoverflow.com/questions/67090130/webdriverexception-process-unexpectedly-closed-with-status-255-selenium-ge
 
-Manual installation of Firefox
+## Manual installation of Firefox
 1. Delete firefox if installed: `apt purge firefox`
 2. Find latest release [here](https://download-installer.cdn.mozilla.net/pub/firefox/releases/) 
 3. Download latest release: `
@@ -25,6 +26,7 @@ wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/116.0.3/lin
 8. Download latest driver: `wget https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.29.0-linux32.tar.gz`
 9. Unpack driver: `tar -xzvf geckodriver-v0.29.0-linux32.tar.gz`
 
+## Finally
 3. Update packages: `apt update && apt upgrade -y`
 4. Use paths to firefox and driver in script:
 ```python
