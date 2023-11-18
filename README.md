@@ -1,12 +1,13 @@
 # VPS-Selenium-Firefox
 Troubleshooting of non working Firefox with Selenium on VPS
 
+If default tweaks doesn't work this might help you to manage
+
 1. Create a project directory and enter it
 2. Create [[env for Python|virtual enviroment]] and activate it
 3. Update `pip install -U pip` and `pip install -U setuptools`
 4. Install Selenium: `pip install selenium`
-5. Install Firefox: `apt install firefox`
-> [!bug]  Default installation doesn't work. 
+
 > > [!Source]-
 > > Port problems: https://serverfault.com/questions/1142186/could-not-start-a-new-session-response-code-500-message-failed-to-read-marion
 > > Dependencies needed: https://stackoverflow.com/questions/67090130/webdriverexception-process-unexpectedly-closed-with-status-255-selenium-ge
