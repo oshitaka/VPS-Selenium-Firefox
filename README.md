@@ -8,10 +8,10 @@ If default tweaks doesn't on Ubuntu work with Firefox 119.0.1 this might help yo
 3. Update `pip install -U pip` and `pip install -U setuptools`
 4. Install Selenium: `pip install selenium`
 
-> > [!Source]-
-> > Port problems: https://serverfault.com/questions/1142186/could-not-start-a-new-session-response-code-500-message-failed-to-read-marion
-> >
-> > Dependencies needed: https://stackoverflow.com/questions/67090130/webdriverexception-process-unexpectedly-closed-with-status-255-selenium-ge
+> ## Source
+> Port problems: https://serverfault.com/questions/1142186/could-not-start-a-new-session-response-code-500-message-failed-to-read-marion
+> 
+> Dependencies needed: https://stackoverflow.com/questions/67090130/webdriverexception-process-unexpectedly-closed-with-status-255-selenium-ge
 
 Manual installation of Firefox
 1. Delete firefox if installed: `apt purge firefox`
