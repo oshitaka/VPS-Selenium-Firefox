@@ -9,7 +9,7 @@ If default tweaks doesn't work on Ubuntu 22.0.3 with Firefox 119.0.1 this might 
 
 ## Fist step
 1. Create a project directory and enter it
-2. Create [[env for Python|virtual enviroment]] and activate it
+2. Create virtual enviroment and activate it
 3. Update `pip install -U pip` and `pip install -U setuptools`
 4. Install Selenium: `pip install selenium`
 
